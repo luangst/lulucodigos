@@ -1,0 +1,45 @@
+/*Estilo para centralizar a página*/
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/*familia da fonte*/
+    background-color: rgb(58, 115, 117);
+display: flex;/*flexbox(auxilia na disposiçãomde conteúdo)*/
+justify-content: center;/*justificado ao centro*/
+align-items: center;
+height: 100vh;/*Definindo a altura (100 vh significa q vai ocupar toda a extensão da nossa pagina)*/
+margin:0;
+
+}
+.container{
+    background-color: rgb(237, 129, 150);/*cor de fundo do container*/
+    padding:40px;/*preenchimento*/
+    border-radius: 10px;/*borda arredondada*/
+    box-shadow: 0px 0px 10px;/*sombra da borda*/
+    text-align: center;
+    width: 300px;
+}
+h1{
+    font-size: 24px;/*tamanho da fonte do título de n1*/
+    margin-bottom: 10px;/*margem do nosso n1 em relação a parte inferior*/ 
+}
+input,select{
+    width: 90%;
+    padding:10px;
+    margin-bottom: 10px;/*separa o decima do converter*/
+    margin-top: 10px;/*separa o debaixo do converter*/
+    border: 4px solid #6bbad2;/*estilo da borda = 1px = expessura da linha | solid= estilo da linha (linha solida) | #ddd= cor*/
+    border-radius: 5px;
+}
+button{
+  width:80%;
+  padding: 10px;
+  background-color: #218cad;/*cor do botão*/
+  color:#0e1214;/*cor da letra*/
+cursor: pointer;/*faz o dedinho pra clicar no botão*/
+}
+button:hover{
+    background-color: aquamarine;/*muda a cor do botão os aproximar o cursor/mouse*/
+}
+#resultado{
+    margin-top: 20px;
+    font-size: 18px;
+}
