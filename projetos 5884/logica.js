@@ -26,3 +26,4 @@ const convertido = valor*taxas[moeda]
     "Por favor, insira um valor válido."
  }
 }
+aula dia 16/10
