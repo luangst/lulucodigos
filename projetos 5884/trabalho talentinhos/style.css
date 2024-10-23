@@ -1,0 +1,55 @@
+/*estilos gerais para o corpo da página*/
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightblue;
+}
+header{
+    background-color: rgba(61, 177, 61, 0.483);/*cor do cabeçalho*/
+    color:rgb(11, 2, 2);/*cor das letras cabeçalho*/
+    padding: 2px;/*preenchimeto do cabeçalho*/
+    text-align: center;/*alinhando o texto ao centro dentro do cabeçalho*/
+}
+/*Estilizando a navegação*/
+nav{
+    background-color:rgba(33, 113, 113, 0.514) ;
+    color:blue;
+    padding: 10px;
+}
+nav ul{
+    /* Remover os marcadores da lista*/
+    list-style-type:none ;
+    padding: 0;
+    display: flex;
+    /*Exibe os itens da lista horizontalmente*/
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 15px;/*espaçamento entre os itens*/
+}
+nav ul li a{
+    color: aliceblue;
+       text-decoration: none;/*remove a linha abaixo dos listados*/
+       transition: color 0.3s;/*transição suave para hover*/
+}
+nav li a:hover{
+    color:rgba(79, 129, 217, 0.803);/*hover muda a cor quando aproxima o cursor*/
+}
+/*Estilo para o conteúdo principal*/
+article{
+    background-color:lavander;
+    color:black;
+    padding: 20px;
+    text-align: justify;
+}
+/*Estilizando o rodapé*/
+footer{
+    color:rgb(9, 111, 30) ;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.imagem{
+    width: 290px;/*largura da imagem*/
+    height: 290px;/*Altura da imagem*/
+    margin-bottom: 30px;/*Espaço entre a imagem e a info debaixo*/
+}
